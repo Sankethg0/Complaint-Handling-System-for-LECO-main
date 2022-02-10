@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="shortcut icon" type="image/jpg" href="images/favicon.ico"/>   <!--the icon in the top left -->
+
+    <title>Welcome to LECO complaint portal</title>
+    <link rel="stylesheet" href="css/style.css">    <!--connecting the csss file -->
+    <script language ="javascript" type="text/javascript">
+        window.history.forward();
+        </script>
+        <script type="text/javascript">
+            localStorage.clear();
+        </script>
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+<!--  "my" for the margin in y axis and p for the padding and dont forgot to go and check the classes in the css file  -->
+    <section class="form-group my-5">
+        <div class="container ahahaaa">
+            
+            <div class="row">
+                <!-- image in the left-->
+                <div class="col-lg-5 col-xl-6 col-md-12 col-sm-12  col-xs-12 ">
+                    <img src="images/aaa.jpg" class="img-fluid" alt="the lamp photo">
+                </div>
+
+                    <!-- form-->
+               
+                <div class="col-lg-7 col-xl-6 col-md-12 col-sm-12  col-xs-12  p-5">
+                    <h1  class="my-5 px-5">Welcome to LECO complaint portal</h1>
+                    <form action="php/login.php" method="POST">
+                    <div class="form-row px-4">
+                        <div class="col-lg-7">
+                            <label class="form-label">Enter your user name</label>
+                            <input type="text" placeholder="Username"  class="form-control" maxlength="35" name="username">
+                        </div>
+                    </div>
+
+                    <div class="form-row px-4">
+                        <div class="col-lg-7">
+                            <label class="form-label">Enter your password</label>
+                            <input type="password" placeholder="*************" class="form-control" maxlength="10" name="password">
+                            <a href="#" style="float:right;font-size:12px;" class="createacc">Forgot password?</a>
+                        </div>
+                    </div>
+
+                    <div class="form-row p-4">
+                        <div class="col-lg-7">
+                            <button type="submit" class="btn btn-secondary" name="login_btn">Login</button>
+                        </div>
+                    </div> 
+                </form>   
+
+                    <div class="form-row p-4">
+                        <div class="col-lg-7">
+                            <p>Not a user yet?<a href="signup.html" class="createacc">  Create an account</a></p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    
+</body>
+</html>
